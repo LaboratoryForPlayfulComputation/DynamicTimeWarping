@@ -15,6 +15,7 @@
 		2EA2CFF920F3C251008F30AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EA2CFF720F3C251008F30AA /* LaunchScreen.storyboard */; };
 		2EA2D00420F3C251008F30AA /* DynamicTimeWarpingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2D00320F3C251008F30AA /* DynamicTimeWarpingTests.swift */; };
 		2EA2D00F20F3C251008F30AA /* DynamicTimeWarpingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2D00E20F3C251008F30AA /* DynamicTimeWarpingUITests.swift */; };
+		2EA2D01D20F3C2F8008F30AA /* DTW.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EA2D01C20F3C2F8008F30AA /* DTW.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2EA2D00A20F3C251008F30AA /* DynamicTimeWarpingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTimeWarpingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EA2D00E20F3C251008F30AA /* DynamicTimeWarpingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTimeWarpingUITests.swift; sourceTree = "<group>"; };
 		2EA2D01020F3C251008F30AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EA2D01C20F3C2F8008F30AA /* DTW.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTW.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				2EA2CFEB20F3C24E008F30AA /* AppDelegate.swift */,
 				2EA2CFED20F3C24E008F30AA /* ViewController.swift */,
+				2EA2D01C20F3C2F8008F30AA /* DTW.swift */,
 				2EA2CFEF20F3C24E008F30AA /* Main.storyboard */,
 				2EA2CFF520F3C251008F30AA /* Assets.xcassets */,
 				2EA2CFF720F3C251008F30AA /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				2EA2CFEE20F3C24E008F30AA /* ViewController.swift in Sources */,
 				2EA2CFEC20F3C24E008F30AA /* AppDelegate.swift in Sources */,
 				2EA2CFF420F3C24E008F30AA /* DynamicTimeWarping.xcdatamodeld in Sources */,
+				2EA2D01D20F3C2F8008F30AA /* DTW.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
